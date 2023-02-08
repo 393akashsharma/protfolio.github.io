@@ -587,7 +587,19 @@ footer span a:hover{
     }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 520px) {
+
+    .home{
+        display: flex;
+       background: url("images/banner1.jpg") no-repeat center;
+        height: 100vh;
+        color: #fff;
+        min-height: 500px;
+        background-size: cover;
+        background-attachment: fixed;
+        font-family: 'Ubuntu', sans-serif;
+    }
+    
     .home .home-content .text-2{
         font-size: 50px;
     }
@@ -608,6 +620,7 @@ footer span a:hover{
     .right form .error-box{
        width: 150px;
     }
+
     .scroll-up-btn{
         right: 15px;
         bottom: 15px;
